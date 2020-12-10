@@ -9,11 +9,13 @@ mod event;
 mod plugin;
 mod plugin_group;
 mod schedule_runner;
+mod any_event_stage;
 
 pub use app::*;
 pub use app_builder::*;
 pub use bevy_derive::DynamicPlugin;
 pub use event::*;
+pub use any_event_stage::*;
 pub use plugin::*;
 pub use plugin_group::*;
 pub use schedule_runner::*;
